@@ -1,0 +1,76 @@
+#solid{
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#dashed{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+}
+#dotted{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+}
+#double{
+    border-width: 3px;
+    border-style: double;
+    border-color: black;
+}
+#inset{
+    border-width: 3px;
+    border-style: inset;
+    border-color: darkblue;
+}
+#outset{
+    border-width: 3px;
+    border-style: outset;
+    border-color: darkred;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+#ridge{
+    border-width: 10px;
+    border-style: ridge;
+    border-color: darkblue;
+}
+#groove{
+    border-width: 10px;
+    border-style: groove;
+    border-color: darkblue;
+}
+
+#gnanesh{
+    width: 200px;
+    border: 10px groove red;
+}
+#short_hand{
+    border: orange groove 20px;
+}
+#mixed_borders{
+    border-top: blue 3px solid;
+    border-right: red 3px dotted;
+    border-bottom: orange 3px dashed;
+    border-left: black 3px double;
+}
+
+#ind,#ch,#us{
+    width: 22%;
+    float: left;
+}
+#ind_cnt,#ch_cnt,#us_cnt{
+    width: fit-content;
+    float: left;
+}
+#ind{
+    border-right: 500px solid orange;
+}
+#ch{
+    border-right: 500px solid orange;
+}
+#us{
+    border-right: 500px solid orange;
+}

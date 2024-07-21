@@ -1,0 +1,37 @@
+/* *{
+    color:aquamarine
+} */
+/*  
+h1{
+    color: bisque;
+    background-color: black;
+    width: fit-content;
+}
+p{
+    color: lightblue;
+    background-color: darkblue;
+    width: fit-content;
+}
+input{
+    color: cadetblue;
+    
+}
+body{
+    color: blueviolet;
+} */
+
+#web_tech{
+    color: aqua;
+}
+#core_java{
+    color: bisque;
+}
+#core_python{
+    color: blue;
+}
+.text_green{
+    color: lawngreen;
+}
+.text_blue{
+    color: blue;
+}

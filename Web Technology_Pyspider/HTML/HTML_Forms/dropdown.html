@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropdownForm</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" name="Username" id="" placeholder="Username">
+        <br><br>
+        <input type="text" name="Mobilenumber" placeholder="Mobilenumber">
+        <br><br>
+        <select name="City" id="city">
+            <option>Select City</option>
+            <optgroup label="Bihar">
+                <option value="">Patna</option>
+                <option value="">samastipur</option>
+                <option value="">bhagalpur</option>
+                <option value="">sasaram</option>
+                <option value="">patandevi</option>
+            </optgroup>
+            <optgroup label="Andhra Pradesh">
+                <option value="">Peddapuram</option>
+                <option value="">rajahmundry</option>
+                <option value="">kakinada</option>
+                <option value="">vizag</option>
+                <option value="">guntur</option>
+            </optgroup>
+            <optgroup label="Andhra Pradesh">
+                <option value="">A</option>
+                <option value="">B</option>
+                <option value="">C</option>
+                <option value="">D</option>
+                <option value="">E</option>
+            </optgroup>
+        </select>
+        <input type="text" name="Course" id="branch" placeholder="Course" list="state">
+        <datalist id="course">
+            <option>MECH</option>
+            <option>CIVIL</option>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+        </datalist>
+        <datalist id="state">
+            <option>Bihar</option>
+            <option>TamilNadu</option>
+        </datalist>
+    </form>
+</body>
+</html>

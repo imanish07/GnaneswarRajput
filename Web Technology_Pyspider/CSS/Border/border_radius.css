@@ -1,0 +1,80 @@
+#one_value{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, darkblue);
+    border-radius: 5px;
+}
+#two_value{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, darkblue);
+    border-radius: 5px 15px;
+}
+#four_value{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, darkblue);
+    border-radius: 5px 10px 15px 20px;
+}
+#circle1{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red,red);
+    border-radius: 50%;
+}
+#circle2{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, darkblue);
+    border-radius: 50% 50%;
+}
+#circle3{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, darkblue);   
+    border-radius: 50% 50% 50% 50%;
+}
+#parent{
+    width: 100px;
+    height: 100px;
+}
+#p1{
+    float: left;
+}
+#p2{
+    float: left;
+}
+#first_petal{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightgreen,darkgreen);
+    border-radius: 0 100%;
+
+}
+#sec_petal{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightgreen,darkgreen);
+    border-radius: 100% 0%;
+}
+#third_petal{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightgreen,darkgreen);
+    border-radius: 100% 0%;
+   
+}
+#four_petal{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightgreen,darkgreen);
+    border-radius: 0% 100%;
+}
+#parent,#child{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, orange);
+}
+#child{
+    border-radius: 20px;
+}

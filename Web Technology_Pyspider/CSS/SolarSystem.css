@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 3000px;
+    background-image: url(../asset/images/sun.png), url(../asset/images/earth.png), url(../asset/images/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%, 20%, 100% 100%;
+    background-position: -250px -200px ,left, center;
+    background-attachment: fixed,scroll,scroll;
+}
+#asteroid{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+#asteroid img{
+    width: 250px;
+}
+#asteroid marquee{
+    width: 100%;
+    height: 3000px;
+}
+#rocket{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#rocket img{
+    width: 200px;
+}
+#rocket marquee{
+    width: 100%;
+    height: 1600px;
+}

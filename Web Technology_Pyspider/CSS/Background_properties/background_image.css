@@ -1,0 +1,28 @@
+#linear{
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(orange , white, green);
+}
+#radial{
+    width: 250px;
+    height: 250px;
+    background-image: radial-gradient(orange , white, green);
+}
+#conical{
+    width: 250px;
+    height: 250px;
+    background-image: conic-gradient(orange , white, green);
+}
+#image{
+    width: 250px;
+    height: 250px;
+    background-image: url(../asset/images/nature.jpg);
+    background-size: 100%;
+}
+#chrome_icon{
+    width: 1000px;
+    height: 1000px;
+    background-image: url(../asset/images/chrome_icon.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}

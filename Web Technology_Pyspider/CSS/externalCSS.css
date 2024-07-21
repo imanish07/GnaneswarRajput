@@ -1,0 +1,26 @@
+h1{
+    color: red;
+}
+label{
+    color: darkblue;
+    background-color: lightblue;
+}
+input{
+    color: blue;
+    background-color: aqua;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+}
+p{
+    color: hotpink;
+    background-color: black;
+}
+#k{
+    background-color: hotpink;
+    border: 2px solid black;
+    color: beige;
+    width: 100px;
+}
+anish{
+    color: brown;
+}

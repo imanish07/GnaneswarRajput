@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govtform2</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th><label for="firstname">FirstName</label></th>
+                <td><input type="text" id="firstname" name="firstname" maxlength="10" minlength="2"></td>
+            </tr>
+            <tr>
+                <th><label for="lastname">LastName</label></th>
+                <td><input type="text" id="lastname" name="lastname" maxlength="10" minlength="2"></td>
+            </tr>
+            <tr>
+                <td><label for="age"> <b>Age</b> </label></td>
+                <td><input type="number" id="age" name="age" min="18"></td>
+            </tr>
+            <tr>
+                <td><label for="date"> <b>DOB</b> </label></td>
+                <td><input type="date" id="date" name="DOB" min="2020-01-01" max="2024-08-01"></td>
+            </tr>
+            <tr>
+                <td><label for="time"><b>Time</b></label></td>
+                <td><input type="time" id="time" name="time" min="06:00" max="18:00"></td>
+            </tr>
+            <tr>
+                <th><input type="submit"></th>
+                <th><input type="reset" value="cancel"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
